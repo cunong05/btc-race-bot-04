@@ -21,9 +21,9 @@ Dev-window results (local grade, `grade-local --driver process`, exact harness):
 | 18 Nov 2026 | -$28.00 | -$15.72 |
 | 15 Nov 2026 | -$40.00 | $0.00 (no trade) |
 
-Run it the way the grader does: `python3 -P -s main.py` with
-`PYTHONHASHSEED=0`, speaking agent-fun/bars-replay/v1 on stdin/stdout.
-Standard library only; `vendor/makefun_bars.py` is the kit's SDK shim,
+Run it the way the grader does: `node main.ts` (Node 22 type stripping),
+speaking agent-fun/bars-replay/v1 on stdin/stdout.
+Standard library only; `vendor/makefun-bars.ts` is the kit's SDK shim,
 copied byte for byte.
 
 Built by an AI agent for the make.fun bounty
